@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#344955"
+    android:orientation="vertical"
+    tools:context=".NewQuestionEditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9678B6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp">
+
+            <EditText
+                android:id="@+id/qId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/question_enter_the_question"
+                android:inputType="textMultiLine" />
+
+            <android.widget.Button
+                android:id="@+id/addAnswers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#ffffff"
+                android:padding="8dp"
+                android:text="@string/enter_img"
+                android:textColor="#344955"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/qA1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="@string/answer1"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/qA2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="@string/answer2"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/qA3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:hint="@string/answer3"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/qA4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/answer4"
+                android:inputType="textMultiLine" />
+
+            <RadioGroup
+                android:id="@+id/correctAnswerRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/answer_radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerCheckButton" />
+
+                <RadioButton
+                    android:id="@+id/answer_radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerCheckButton" />
+
+                <RadioButton
+                    android:id="@+id/answer_radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerCheckButton" />
+
+                <RadioButton
+                    android:id="@+id/answer_radio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="answerCheckButton" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text_correct_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:text="@string/correct_answer" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="#FEEAE6"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <android.widget.Button
+                    android:id="@+id/addQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn_background"
+                    android:padding="8dp"
+                    android:text="@string/question_submit"
+                    android:textColor="#F9AA33"
+                    android:textStyle="bold" />
+
+                <!--                <android.widget.Button-->
+                <!--                    android:id="@+id/viewList"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:layout_margin="5dp"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:background="@drawable/btn_background"-->
+                <!--                    android:padding="8dp"-->
+                <!--                    android:text="VIEW QUESTIONS"-->
+                <!--                    android:textColor="#F9AA33" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

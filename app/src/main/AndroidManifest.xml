@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.quizme">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quizme2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizDetailsActivity"
+            android:label="Quiz Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PastQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HostedQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditQuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditQuizDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewQuestionEditActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PastQuizQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PopUpSubmission"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Me Dev</string>
+
+    <string name="open">විවෘත කරන්න</string>
+    <string name="delete_btn">මකන්න</string>
+    <string name="score">ස්කෝර්</string>
+    <string name="leaderboard_title">ලීඩර්බෝඩ්</string>
+    <string name="Home">ප්‍රධාන මෙනුව</string>
+    <string name="past_quiz_correct_answer">නිවැරදි පිළිතුර</string>
+
+    //login activity
+    <string name="login_pageName">ඇතුල් වන්න</string>
+    <string name="login_userName">පරිශීලක නාමය</string>
+    <string name="login_password">මුරපදය</string>
+    <string name="login_button">පිවිසෙන්න</string>
+    <string name="Login_forgot"></string>
+    <string name="login_newUser">නව පරිශීලකයෙක්? ලියාපදින්චි වන්න</string>
+    <string name="login_changeLan">භාශාව වෙනස් කරන්න</string>
+    <string name="username_error">"පරිශීලක නාමය හිස් විය නොහැක"</string>
+
+    //sign up
+    <string name="sign_up">ලියාපදිංචි වන්න</string>
+    <string name="first_name">මුල් නම</string>
+    <string name="last_name">අවසන් නම</string>
+    <string name="sign_username">පරිශීලක නාමය</string>
+    <string name="sign_password">මුරපදය</string>
+    <string name="confirm_password">මුරපදය තහවුරු කරන්න</string>
+    <string name="sign_button">ලියාපදිංචි වන්න</string>
+
+
+    //home UI
+    <string name="schedule_description">ඔබගේ සියලු නියමිත ප්‍රශ්නාවලිය වෙත පිවිසිය හැකිය. ඔබ විසින් සත්කාරකත්වය සපයන ඕනෑම ප්‍රශ්නාවලිය සංස්කරණය කිරීමට හෝ මකා දැමීමට ඔබට හැකිය.</string>
+    <string name="past_description">ඔබ මීට පෙර සම්බන්ධ වූ ප්‍රශ්නාවලියකට ප්‍රවේශ විය හැකිය</string>
+    <string name="schedule">උපලේඛනය</string>
+    <string name="past_quiz">අතීත ප්‍රශ්නාවලි</string>
+
+    //quiz UI
+    <string name="join_description">ප්‍රශ්නාවලිය හැඳුනුම්පත ඇතුළත් කිරීමෙන් ඔබට ප්‍රශ්නාවලියට සම්බන්ධ විය හැකිය</string>
+    <string name="create_description">ඔබට නව ප්‍රශ්නාවලිය නිර්මාණය කළ හැකි අතර ඔබ විසින්ම ප්‍රශ්නාවලිය හැඳුනුම්පත් අන් අය සමඟ බෙදා ගත හැකිය.</string>
+    <string name="new_quiz">නව ප්‍රශ්නාවලිය</string>
+    <string name="join_quiz">ප්‍රශ්නාවලියට එක්වන්න</string>
+    <string name="create">ආරම්භ කරන්න</string>
+    <string name="join">එක්වන්න</string>
+
+    //leaderboard
+    <string name="leaderboard_description">ඔබ කලින් සත්කාරකත්වය දුන් ප්‍රශ්නාවලියෙහි ප්‍රමුඛ පුවරුවට පිවිසිය හැකිය</string>
+
+    //schedule quiz recycle
+    <string name="quiz_name">ප්‍ර.නම: </string>
+    <string name="date">දිනය: </string>
+    <string name="time">කාලය: </string>
+    <string name="quiz_id">ප්‍ර.අං: </string>
+    <string name="share_button">බෙදාහරින්න</string>
+    <string name="edit_button">සංස්කරණය කරන්න</string>
+
+    //past quiz recycle row
+    <string name="past_quiz_title">අතීත ප්‍රශ්නාවලි</string>
+    <string name="past_quiz_marks">ලකුණු: </string>
+
+    //edit quiz detail UI
+    <string name="edit_title">ප්‍රශ්නාවලිය සංස්කරණය කරන්න</string>
+    <string name="edit_quiz">ප්‍රශ්නාවලිය සංස්කරණය කරන්න</string>
+    <string name="edit_quizname">ප්‍රශ්නාවලියෙහි නම</string>
+    <string name="start_date">ආරම්භක දිනය</string>
+    <string name="start_time">ආරම්භක වේලාව</string>
+    <string name="duration">කාලය (මිනිත්තු)</string>
+    <string name="edit_que_btn">ප්‍රශ්න සංස්කරණය කරන්න</string>
+    <string name="submit">ඉදිරිපත් කරන්න</string>
+
+    //quiz details UI
+    <string name="new_title">නව ප්‍රශ්නාවලිය</string>
+    <string name="newquiz">නව ප්‍රශ්නාවලිය</string>
+    <string name="next">ඊළඟ</string>
+
+    //create question UI
+    <string name="que_count">ප්‍රශ්න ගණන: 0</string>
+    <string name="view_que">ප්‍රශ්නය බලන්න</string>
+    <string name="finish">නිමාව</string>
+    <string name="enter_que">ප්‍රශ්නය ඇතුළත් කරන්න</string>
+    <string name="pick_image">ගැලරියෙන් පින්තූරයක් තෝරන්න</string>
+    <string name="delete_img">රූපය මකන්න</string>
+    <string name="enter_img">පිළිතුරු ඇතුළත් කරන්න</string>
+    <string name="answer1">පිළිතුර 1</string>
+    <string name="answer2">පිළිතුර 2</string>
+    <string name="answer3">පිළිතුර 3</string>
+    <string name="answer4">පිළිතුර 4</string>
+    <string name="correct_answer">නිවැරදි පිළිතුර: </string>
+    <string name="add_list">ලැයිස්තුවට එක් කරන්න</string>
+
+    //pop up submission
+    <string name="pop_title">ඔබගේ ප්‍රශ්නාවලිය සැලසුම් කර ඇත.</string>
+    <string name="id">ප්‍රශ්නාවලිය: </string>
+
+    <!--    connection check-->
+    <string name="connection_check_oops">OOPS!</string>
+    <string name="connection_check_no_internet_connection">අන්තර්ජාල සම්බන්ධතාවයක් නොමැත</string>
+    <string name="connection_check_please_check_your_connection">කරුණාකර ඔබේ සම්බන්ධතාවය පරීක්ෂා කරන්න</string>
+    <string name="connection_check_retry">නැවත උත්සාහ කරන්න</string>
+
+
+    <!--InstructionsActivity-->
+    <string name="instructions_activity_header_1">ප්‍රශ්නාවලියක් එකතු කරන්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_2">සාදන ලද ප්‍රශ්නාවලියක් දකින්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_3">සාදන ලද ප්‍රශ්න විචාරාත්මක ගැටලු මට සංස්කරණය කළ හැකිද?</string>
+    <string name="instructions_activity_header_4">මම ප්‍රශ්නාවලියකට සහභාගිවන්නෙක්මි. ප්‍රශ්නාවලිය හැඳුනුම්පත ලබා ගන්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_5">ප්‍රශ්නාවලියකට සම්බන්ධ වන්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_6">මම ප්‍රශ්නාවලියකට සහභාගිවන්නෙක්මි. මගේ ප්‍රශ්නාවලියෙහි ප්‍රති Results ල මට දැකිය හැකිද?</string>
+    <string name="instructions_activity_header_7">සාදන ලද ප්‍රශ්නාවලියක ප්‍රමුඛ පුවරුව දකින්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_8">මගේ අතීත ප්‍රශ්නාවලියට සහභාගී වූ ලකුණු දකින්නේ කෙසේද?</string>
+    <string name="instructions_activity_header_9">පෞද්ගලිකත්වය</string>
+    <string name="instructions_activity_header_10">ඔබ අපේ යෙදුමට කැමතිද?</string>
+    <string name="instructions_activity_header_11">යෙදුමේ අසාමාන්‍ය දෙයක් සිදුවන්නේ නම් මට කුමක් කළ හැකිද?</string>
+
+    <string name="instructions_activity_header_1_child_data">සංචාලන තීරුව භාවිතා කර ප්‍රශ්නාවලිය වෙත යන්න. ප්‍රශ්නාවලිය නිර්මාණය කිරීම සඳහා ඔබට නව ප්‍රශ්නාවලිය මත ක්ලික් කළ හැකිය. එවිට ඔබට ප්‍රශ්නාවලිය (ප්‍රශ්නාවලියෙහි නම, ආරම්භක දිනය, ආරම්භක වේලාව සහ කාලසීමාව) එකතු කළ යුතුය. ඊළඟ බොත්තම ක්ලික් කරන්න, එවිට ඔබ ප්‍රශ්න එකතු කිරීම සඳහා පිටුවකට හරවා යවනු ඇත. ප්‍රශ්නය එකතු කිරීමෙන් පසු ඔබට හතරේ පිළිතුරු සහ නිවැරදි පිළිතුර ලබා දිය යුතුය. ලැයිස්තුවට එක් කරන්න ක්ලික් කිරීමෙන්, ඔබ ලැයිස්තුවට පෙර ප්‍රශ්න එකතු කර තවත් ප්‍රශ්නයක් එක් කරනු ඇත. ප්‍රශ්න 1 ක් හෝ වැඩි ගණනක් එකතු කිරීමෙන් පසුව, නිම කරන්න බොත්තම ක්ලික් කිරීමෙන් ඔබට ප්‍රශ්නාවලිය නිර්මාණය කළ හැකිය. සාර්ථකව ඉදිරිපත් කිරීමෙන් පසු, ඔබට උත්පතන පණිවිඩයක් ලැබෙනු ඇත.ඔබට ප්‍රශ්නාවලිය හැඳුනුම්පත මෙතැනින් පිටපත් කර ප්‍රශ්නාවලිය සඳහා සහභාගිවන්නන් සමඟ බෙදා ගත හැකිය.</string>
+    <string name="instructions_activity_header_2_child_data">සංචාලන තීරුව භාවිතයෙන් නිවාස අංශයට යන්න. ඔබ විසින් සාදන ලද ප්‍රශ්නාවලිය බැලීමට ඔබට උපලේඛනය ක්ලික් කළ හැකිය.</string>
+    <string name="instructions_activity_header_3_child_data">උපලේඛන කොටසේදී ඔබ විසින් සාදන ලද ප්‍රශ්නාවලිය දැකිය හැකිය. ප්‍රශ්නාවලියක් ක්ලික් කිරීමෙන් පසු ඔබට අනුරූප ප්‍රශ්නාවලිය ගැටළු යාවත්කාලීන කිරීමට හෝ මකා දැමීමට හැකි වේ.ඔබට මෙහි නව ප්‍රශ්න එකතු කළ හැකිය</string>
+    <string name="instructions_activity_header_4_child_data">ප්‍රශ්න විචාරක නිර්මාණකරු තම සහභාගිවන්නන් සමඟ ප්‍රශ්න විචාරාත්මක හැඳුනුම්පත බෙදා ගත යුතුය. ඔහු / ඇය ප්‍රශ්නාවලිය හැදෑරීමෙන් පසු ප්‍රශ්නාවලිය හැඳුනුම්පත පිටපත් කර ඔබ සමඟ බෙදා ගනු ඇත.</string>
+    <string name="instructions_activity_header_5_child_data">සංචාලන තීරුව භාවිතා කර ප්‍රශ්නාවලිය වෙත යන්න. ප්‍රශ්නාවලියකට සම්බන්ධ වීමට ඔබට එක්වන්න ක්ලික් කරන්න. ප්‍රශ්නාවලිය ආරම්භක වේලාවෙන් පසුව, ප්‍රශ්නාවලියකට සම්බන්ධ වීමට ඔබට නිවැරදි ප්‍රශ්න විචාරාත්මක හැඳුනුම්පතක් ඇතුළත් කළ යුතුය.</string>
+    <string name="instructions_activity_header_6_child_data">පිළිතුරු දුන් ප්‍රශ්නාවලිය ඉදිරිපත් කිරීමෙන් පසු ඔබේ ප්‍රතිඵල ඔබට දැකගත හැකිය.</string>
+    <string name="instructions_activity_header_7_child_data">ඔහු විසින් නිර්මාණය කරන ලද ප්‍රශ්නාවලියෙහි ප්‍රමුඛ පුවරුව දැකිය හැක්කේ ප්‍රශ්නාවලියෙහි නිර්මාතෘවරයාට පමණි. ඔහුට / ඇයට එක් එක් ප්‍රශ්නාවලියෙහි ප්‍රමුඛ පුවරු බැලීමට සංචාලන තීරුව භාවිතා කර ලීඩර්බෝඩ් අංශයට යා හැකිය.</string>
+    <string name="instructions_activity_header_8_child_data">සංචාලන තීරුව භාවිතයෙන් නිවාස අංශයට යන්න. ඔබගේ අතීත සහභාගී වූ ප්‍රශ්නාවලිය බැලීමට ඔබට අතීත ප්‍රශ්නාවලිය මත ක්ලික් කළ හැකිය. එය එක් එක් ප්‍රශ්නාවලියෙහි ප්‍රශ්නාවලියෙහි නම, දිනය, වේලාව සහ ලකුණු පෙන්වනු ඇත.</string>
+    <string name="instructions_activity_header_9_child_data">PlayStore හි Quiz Me ශ්‍රේණිගත කිරීමට අමතක නොකරන්න</string>
+    <string name="instructions_activity_header_10_child_data">100% පුද්ගලිකයි. පුද්ගලික දත්ත එකතු කිරීමක් නොමැත. තෙවන පාර්ශවයන් සමඟ දත්ත හුවමාරුවක් නොමැත.</string>
+    <string name="instructions_activity_header_11_child_data">සෙල්ලම් වෙළඳසැල් සමාලෝචන අංශය භාවිතා කරමින් ගැටලුව අපට පැවසීමට කාරුණික වන්න.</string>
+
+    <!--activity_privacy_policy-->
+    <string name="activity_privacy_policy_header_1">රහස්යතා ප්රතිපත්තිය</string>
+    <string name="activity_privacy_policy_header_2">තොරතුරු රැස් කිරීම සහ භාවිතය</string>
+    <string name="activity_privacy_policy_header_3">දත්ත ලොග් කරන්න</string>
+    <string name="activity_privacy_policy_header_4">කුකීස්</string>
+    <string name="activity_privacy_policy_header_5">සේවා සපයන්නන්</string>
+    <string name="activity_privacy_policy_header_6">ආරක්ෂක</string>
+    <string name="activity_privacy_policy_header_7">වෙනත් අඩවි වලට සබැඳි</string>
+    <string name="activity_privacy_policy_header_8">දරුවන්ගේ පෞද්ගලිකත්වය</string>
+    <string name="activity_privacy_policy_header_9">මෙම රහස්‍යතා ප්‍රතිපත්තියේ වෙනස්කම්</string>
+    <string name="activity_privacy_policy_header_10">අපව අමතන්න</string>
+    <string name="activity_privacy_policy_value_1">කණ්ඩායම් කේතාංකය Quiz Me යෙදුම නොමිලේ යෙදුමක් ලෙස ගොඩනගා ඇත. මෙම සේවාව කිසිදු පිරිවැයකින් තොරව කණ්ඩායම් කේතාංකය විසින් සපයනු ලබන අතර එය භාවිතා කිරීමට අදහස් කෙරේ.
+        අපගේ සේවාව භාවිතා කිරීමට යමෙකු තීරණය කර ඇත්නම් පුද්ගලික තොරතුරු එකතු කිරීම, භාවිතා කිරීම සහ අනාවරණය කිරීම සමඟ අපගේ ප්‍රතිපත්ති පිළිබඳව අමුත්තන්ට දැනුම් දීමට මෙම පිටුව භාවිතා කරයි.
+        ඔබ අපගේ සේවාව භාවිතා කිරීමට තෝරා ගන්නේ නම්, මෙම ප්‍රතිපත්තියට අදාළව තොරතුරු රැස් කිරීම සහ භාවිතා කිරීම ඔබ එකඟ වේ. අප රැස් කරන පුද්ගලික තොරතුරු සේවාව සැපයීම සහ වැඩිදියුණු කිරීම සඳහා යොදා ගනී. මෙම රහස්‍යතා ප්‍රතිපත්තියේ විස්තර කර ඇති පරිදි හැර අපි කිසිවෙකු සමඟ ඔබේ තොරතුරු භාවිතා නොකරන්නෙමු.
+        </string>
+    <string name="activity_privacy_policy_value_2">අපගේ සේවාව භාවිතා කරන අතරතුර වඩා හොඳ අත්දැකීමක් සඳහා, අප විසින් රැස් කරන වෙනත් ඕනෑම දෙයක් එකතු කිරීමට පමණක් නොව ඒවාට පමණක් සීමා නොවී පුද්ගලිකව හඳුනාගත හැකි තොරතුරු අපට ලබා දෙන ලෙස අපි ඔබෙන් ඉල්ලා සිටිමු. අප ඉල්ලා සිටින තොරතුරු අප විසින් රඳවා ගනු ඇති අතර මෙහි විස්තර කර ඇති පරිදි භාවිතා කරනු ලැබේ රහස්යතා ප්රතිපත්තිය.
+        යෙදුම ඔබව හඳුනා ගැනීමට භාවිතා කරන තොරතුරු රැස් කළ හැකි තෙවන පාර්ශවීය සේවාවන් භාවිතා කරයි.</string>
+    <string name="activity_privacy_policy_value_3">යෙදුමේ යම් දෝෂයක් ඇති වුවහොත්, ඔබ අපගේ සේවාව භාවිතා කරන සෑම අවස්ථාවකම අපි ඔබේ දුරකථනයෙන් ලොග් දත්ත නමින් දත්ත සහ තොරතුරු රැස් කරන බව ඔබට දන්වන්නෙමු. මෙම ලොග් දත්ත වලට ඔබගේ උපාංගවල අන්තර්ජාල කෙටුම්පත (“IP”) ලිපිනය, උපාංගයේ නම, මෙහෙයුම් පද්ධති අනුවාදය, අපගේ සේවාව භාවිතා කරන විට යෙදුමේ වින්‍යාසය, ඔබ සේවාව භාවිතා කළ වේලාව සහ දිනය සහ වෙනත් සංඛ්‍යාලේඛන වැනි තොරතුරු ඇතුළත් විය හැකිය.</string>
+    <string name="activity_privacy_policy_value_4">කුකීස් යනු නිර්නාමික අද්විතීය හඳුනාගැනීමක් භාවිතා කරන කුඩා දත්ත ප්‍රමාණයක් සහිත ලිපිගොනු වේ. මේවා ඔබ පිවිසෙන වෙබ් අඩවියෙන් ඔබගේ බ්‍රව්සරයට යවනු ලබන අතර ඒවා ඔබගේ උපාංගවල අභ්‍යන්තර මතකයේ ගබඩා වේ.
+        මෙම සේවාවන් මෙම “කුකීස්” පැහැදිලිව භාවිතා නොකරයි. කෙසේ වෙතත්, තොරතුරු රැස් කිරීමට සහ ඔවුන්ගේ සේවාවන් වැඩි දියුණු කිරීමට යෙදුමට තෙවන පාර්ශවීය කේත සහ “කුකීස්” භාවිතා කරන පුස්තකාල භාවිතා කළ හැකිය. ඔබට මෙම කුකී පිළිගැනීමට හෝ ප්‍රතික්ෂේප කිරීමට විකල්පයක් ඇති අතර ඔබගේ උපාංගයට කුකියක් යවන්නේ කවදාදැයි දැන ගන්න. ඔබ අපගේ කුකීස් ප්‍රතික්ෂේප කිරීමට තෝරා ගන්නේ නම්, ඔබට මෙම සේවාවේ සමහර කොටස් භාවිතා කිරීමට නොහැකි වනු ඇත.</string>
+    <string name="activity_privacy_policy_value_5">පහත සඳහන් හේතු නිසා අපට තෙවන පාර්ශවීය සමාගම් සහ පුද්ගලයින් සේවයේ යෙදවිය හැකිය:
+        අපගේ සේවාවට පහසුකම් සැලසීම; අප වෙනුවෙන් සේවාව සැපයීම; සේවා ආශ්‍රිත සේවාවන් ඉටු කිරීම; හෝ අපගේ සේවාව භාවිතා කරන ආකාරය විශ්ලේෂණය කිරීමට අපට සහාය වීම.
+මෙම තෙවන පාර්ශවයන්ට ඔබේ පුද්ගලික තොරතුරු වෙත ප්‍රවේශය ඇති බව මෙම සේවාවේ පරිශීලකයින්ට දැනුම් දීමට අපට අවශ්‍යය. හේතුව අප වෙනුවෙන් ඔවුන්ට පවරා ඇති කාර්යයන් ඉටු කිරීමයි. කෙසේ වෙතත්, තොරතුරු අනාවරණය කිරීම හෝ වෙනත් අරමුණු සඳහා භාවිතා නොකිරීමට ඔවුන් බැඳී සිටී.</string>
+    <string name="activity_privacy_policy_value_6">ඔබගේ පුද්ගලික තොරතුරු අපට ලබා දීමේ ඔබේ විශ්වාසය අපි අගය කරමු, එබැවින් අපි එය ආරක්ෂා කිරීම සඳහා වාණිජමය වශයෙන් පිළිගත හැකි මාධ්‍යයන් භාවිතා කිරීමට උත්සාහ කරමු. නමුත් අන්තර්ජාලය හරහා සම්ප්‍රේෂණය වන කිසිදු ක්‍රමයක් හෝ ඉලෙක්ට්‍රොනික ගබඩා කිරීමේ ක්‍රමයක් 100% ආරක්ෂිත සහ විශ්වාසදායක නොවන බව මතක තබා ගන්න, අපට එහි නිරපේක්ෂ ආරක්ෂාව සහතික කළ නොහැක.</string>
+    <string name="activity_privacy_policy_value_7">මෙම සේවාවේ වෙනත් අඩවි වලට සබැඳි අඩංගු විය හැකිය. ඔබ තෙවන පාර්ශවීය සබැඳියක් ක්ලික් කළහොත්, ඔබව එම වෙබ් අඩවිය වෙත යොමු කරනු ඇත. මෙම බාහිර අඩවි අප විසින් ක්‍රියාත්මක නොකරන බව සලකන්න. එබැවින් මෙම වෙබ් අඩවි වල රහස්‍යතා ප්‍රතිපත්තිය සමාලෝචනය කරන ලෙස අපි තරයේ ඔබට උපදෙස් දෙමු. ඕනෑම තෙවන පාර්ශවීය වෙබ් අඩවි හෝ සේවාවන්හි අන්තර්ගතය, රහස්‍යතා ප්‍රතිපත්ති හෝ භාවිතයන් පිළිබඳව අපට කිසිදු පාලනයක් නොමැත.</string>
+    <string name="activity_privacy_policy_value_8">මෙම සේවාවන් වයස අවුරුදු 12 ට අඩු කිසිවෙකු අමතන්නේ නැත. අපි දැනුවත්ව 12 ට අඩු ළමයින්ගෙන් පුද්ගලික හඳුනාගත හැකි තොරතුරු රැස් නොකරමු. 12 ට අඩු දරුවෙකු අපට පුද්ගලික තොරතුරු ලබා දී ඇති බව මා දැනගත්තොත්, මම වහාම අපගේ සේවාදායකයෙන් මෙය මකා දමමි. ඔබ දෙමව්පියන් හෝ භාරකරුවෙකු නම් සහ ඔබේ දරුවා අපට පුද්ගලික තොරතුරු ලබා දී ඇති බව ඔබ දන්නේ නම්, කරුණාකර අප හා සම්බන්ධ වන්න එවිට මට අවශ්‍ය ක්‍රියාමාර්ග ගැනීමට හැකි වනු ඇත.</string>
+    <string name="activity_privacy_policy_value_9">අපි වරින් වර අපගේ රහස්‍යතා ප්‍රතිපත්තිය යාවත්කාලීන කළ හැකිය. මේ අනුව, කිසියම් වෙනස්කමක් සඳහා වරින් වර මෙම පිටුව සමාලෝචනය කිරීමට ඔබට උපදෙස් දෙනු ලැබේ. නව රහස්‍යතා ප්‍රතිපත්තිය මෙම පිටුවේ පළ කිරීමෙන් ඕනෑම වෙනස්කමක් පිළිබඳව අපි ඔබට දන්වන්නෙමු. මෙම වෙනස්කම් මෙම පිටුවේ පළ කිරීමෙන් පසු වහාම ක්‍රියාත්මක වේ.</string>
+    <string name="activity_privacy_policy_value_10">අපගේ රහස්‍යතා ප්‍රතිපත්තිය පිළිබඳව ඔබට කිසියම් ප්‍රශ්නයක් හෝ යෝජනා තිබේ නම්, අප හා සම්බන්ධ වීමට පසුබට නොවන්න.</string>
+
+
+</resources>

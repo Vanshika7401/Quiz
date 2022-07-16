@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#344955"
+    android:orientation="vertical"
+    tools:context=".CreateQuestionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#9678B6"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp">
+
+                <android.widget.Button
+                    android:id="@+id/questionCount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#344955"
+                    android:padding="8dp"
+                    android:text="@string/que_count"
+                    android:textColor="#F9AA33"
+                    android:textStyle="bold" />
+
+                <android.widget.Button
+                    android:id="@+id/viewList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn_background"
+                    android:padding="8dp"
+                    android:text="@string/view_que"
+                    android:textColor="#F9AA33"
+                    android:textStyle="bold" />
+
+                <android.widget.Button
+                    android:id="@+id/submitQuiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn_background"
+                    android:padding="8dp"
+                    android:text="@string/finish"
+                    android:textColor="#F9AA33"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/round_background"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <EditText
+                    android:id="@+id/qId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/enter_que"
+                    android:inputType="textMultiLine"/>
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/quesImg"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:layout_gravity="center_vertical"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:autofillHints="Question Image"-->
+<!--                    android:background="@drawable/image_border"-->
+<!--                    android:paddingTop="4dp"-->
+<!--                    android:paddingBottom="4dp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginBottom="15dp"-->
+<!--                    android:background="#FEEAE6"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <android.widget.Button-->
+<!--                        android:id="@+id/pickImage"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:padding="8dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:text="@string/pick_image"-->
+<!--                        android:background="@drawable/btn_background"-->
+<!--                        android:textColor="#F9AA33"/>-->
+
+<!--                    <android.widget.Button-->
+<!--                        android:id="@+id/deleteImage"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_margin="5dp"-->
+<!--                        android:padding="8dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:text="@string/delete_img"-->
+<!--                        android:background="@drawable/btn_background"-->
+<!--                        android:textColor="#F9AA33"/>-->
+
+<!--                </LinearLayout>-->
+
+                <android.widget.Button
+                    android:id="@+id/addAnswers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:text="@string/enter_img"
+                    android:background="#ffffff"
+                    android:textColor="#344955"/>
+
+                <EditText
+                    android:id="@+id/qA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:ems="10"
+                    android:hint="@string/answer1"
+                    android:inputType="textMultiLine"
+                   />
+
+                <EditText
+                    android:id="@+id/qA2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:ems="10"
+                    android:hint="@string/answer2"
+                    android:inputType="textMultiLine"
+                    />
+
+                <EditText
+                    android:id="@+id/qA3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:ems="10"
+                    android:hint="@string/answer3"
+                    android:inputType="textMultiLine"
+                     />
+
+                <EditText
+                    android:id="@+id/qA4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/answer4"
+                    android:inputType="textMultiLine"
+                     />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:id="@+id/correctAnswerRadioGroup"
+                    >
+                    <RadioButton
+                        android:id="@+id/answer_radio1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="answerCheckButton"
+                        />
+                    <RadioButton
+                        android:id="@+id/answer_radio2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="answerCheckButton"
+                        />
+                    <RadioButton
+                        android:id="@+id/answer_radio3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="answerCheckButton"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/answer_radio4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="answerCheckButton"
+                        />
+                </RadioGroup>
+                <TextView
+                    android:id="@+id/text_correct_answer"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/correct_answer"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:background="#301934"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <android.widget.Button
+                        android:id="@+id/addQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/btn_background"
+                        android:padding="8dp"
+                        android:text="@string/add_list"
+                        android:textColor="#F9AA33"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

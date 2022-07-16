@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#9678B6</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="hint_color">#9A1E1E</color>
+    <color name="primaryGray">#655555</color>
+    <color name="bottomNav">#9678B6</color>
+
+<!--    Connection colors-->
+    <color name="colorOnPrimaryConnection">#fff</color>
+    <color name="colorPrimaryConnection">#554911</color>
+    <color name="colorOnPrimaryLightConnection">#9678B6</color>
+    <color name="colorAccentConnection">#665815</color>
+
+<!--    nirogya-->
+    <color name="primaryColor">#512da8</color>
+    <color name="primaryLightColor">#8559da</color>
+    <color name="primaryDarkColor">#140078</color>
+    <color name="primaryTextColor">#ffffff</color>
+
+    <color name="status_bar_color">#9678B6</color>
+    <!--activity_instructions.xml-->
+    <color name="activity_instructions_cache_color_hint">#000000</color>
+
+    <!--activity_instructions_list_view_headers.xml-->
+    <color name="activity_instructions_list_view_headers_background">#534bae</color>
+    <color name="activity_instructions_list_view_headers_text_color">#ffffff</color>
+
+    <!--activity_instructions_list_view_values.xml-->
+    <color name="activity_instructions_list_view_value_background">#534bae</color>
+    <color name="activity_instructions_list_view_value_text_color">#ffffff</color>
+
+    <!--activity_privacy_policy.xml-->
+    <color name="activity_privacy_policy_text_color">#ffffff</color>
+
+    <!--activity_profile.xml-->
+    <color name="activity_profile_background_color">#1a237e</color>
+    <color name="activity_profile_header_color">#54C571</color>
+    <color name="activity_profile_decription_name_text_color">#ffffff</color>
+    <color name="activity_profile_height_caption_text_color">#ffffff</color>
+    <color name="activity_profile_weight_caption_text_color">#ffffff</color>
+    <color name="activity_profile_height_value_text_color">#ffffff</color>
+    <color name="activity_profile_weight_value_text_color">#ffffff</color>
+    <color name="activity_profile_next_button_text_color">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#9678B6</color>
+    <color name="blue">#3498db</color>
+    <color name="red">#db3434</color>
+    <color name="green">#11b900</color>
+    <color name="yellow">#9678B6</color>
+    <color name="pink">#FF007F</color>
+    <color name="textColor">#9678B6</color>
+
+</resources>
